@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 15px;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 130%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+.image {
+  display: inline-block;
+  right: 40px;
+  position: absolute;
+}
+.size {
+  width: 143px;
+  height: 193px;
+}
+
+.name-title {
+  color: #0e2452;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.CV {
+  display: inline-block;
+  width: 70%;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+tr {
+  line-height: 30px;
+}
+
+.personal-table th {
+  padding-right: 40px;
+}
+
+.section-title {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+#information {
+  display: inline;
+  vertical-align: top;
+  border-bottom: 1px solid #9999;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* li {
+  list-style: none;
+} */
+
+.certificate,
+.exp {
+  display: inline-block;
+  width: 69%;
+}
+
+.skill-table th {
+  width: 100px;
+  padding-right: 180px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.skill-table th {
+  width: 100px;
+  padding-right: 175px;
+}
+
+.certificate p,
+.exp p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+li {
+  position: relative;
+  left: -20px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+
+#footer .container {
+  height: 120px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#footer a:link,
+#footer a:visited {
+  text-decoration: none;
+  color: #868e96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer a:hover {
+  color: black;
+}
+#footer i {
+  color: #199cdb;
+  font-size: calc(1.5rem + 0.9vw);
+}
+#footer {
+  margin-bottom: 0;
+}
